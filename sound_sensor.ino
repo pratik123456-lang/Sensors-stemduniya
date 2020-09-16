@@ -11,7 +11,7 @@ void loop() {
     int s=0;
     s=digitalRead(2);
     if(s!=0){
-      pinMode(3,HIGH);
+      digitalWrite(3,HIGH);
       Serial.println(s);
       delay(1000);
     }
